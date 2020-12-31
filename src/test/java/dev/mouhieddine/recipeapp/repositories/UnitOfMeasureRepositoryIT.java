@@ -3,6 +3,7 @@ package dev.mouhieddine.recipeapp.repositories;
 import dev.mouhieddine.recipeapp.bootstrap.RecipeBootstrap;
 import dev.mouhieddine.recipeapp.domain.UnitOfMeasure;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 @RunWith(SpringRunner.class)
 @DataMongoTest
 public class UnitOfMeasureRepositoryIT {
