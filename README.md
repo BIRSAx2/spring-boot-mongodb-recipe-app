@@ -1,0 +1,1 @@
+# spring-boot-mongodb-recipe-app [![codecov](https://codecov.io/gh/BIRSAx2/spring-boot-mongodb-recipe-app/branch/master/graph/badge.svg?token=9F6Z1HSA0E)](https://codecov.io/gh/BIRSAx2/spring-boot-mongodb-recipe-app)
