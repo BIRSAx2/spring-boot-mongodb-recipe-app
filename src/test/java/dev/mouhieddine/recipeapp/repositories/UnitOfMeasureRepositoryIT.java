@@ -30,6 +30,7 @@ public class UnitOfMeasureRepositoryIT {
     // reset db to prevent reloading categories already loaded
     unitOfMeasureRepository.deleteAll();
     categoryRepository.deleteAll();
+    recipeRepository.deleteAll();
     // load categories
     RecipeBootstrap recipeBootstrap = new RecipeBootstrap(categoryRepository, recipeRepository, unitOfMeasureRepository);
     recipeBootstrap.onApplicationEvent(null);
